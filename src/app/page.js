@@ -8,7 +8,7 @@ import AboutPage from "@/components/About/AboutPage";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
-      {/* <Image
+      <Image
         src={bg}
         alt="background-image"
         fill
@@ -22,8 +22,7 @@ export default function Home() {
         <RenderModel>
           <Sci_Fi_comp />
         </RenderModel>
-      </div> */}
-      <AboutPage/>
+      </div>
     </main>
   );
 }
